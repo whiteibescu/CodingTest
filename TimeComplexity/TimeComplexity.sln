@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeComplexity", "TimeComplexity\TimeComplexity.vcxproj", "{4CF14E46-86FD-469E-AD39-B770C75A2947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Debug|x64.ActiveCfg = Debug|x64
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Debug|x64.Build.0 = Debug|x64
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Debug|x86.ActiveCfg = Debug|Win32
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Debug|x86.Build.0 = Debug|Win32
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Release|x64.ActiveCfg = Release|x64
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Release|x64.Build.0 = Release|x64
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Release|x86.ActiveCfg = Release|Win32
+		{4CF14E46-86FD-469E-AD39-B770C75A2947}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73E80EB1-AEB0-45EB-A286-D04829D81FCC}
+	EndGlobalSection
+EndGlobal
