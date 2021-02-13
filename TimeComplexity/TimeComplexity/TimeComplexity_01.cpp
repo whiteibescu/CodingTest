@@ -1,7 +1,6 @@
 //clock 함수를 이용한 방법
 
-#include <stdio.h>	
-#include <time.h>
+#include <iostream>
 
 int main()
 {
