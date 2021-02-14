@@ -21,7 +21,7 @@ int main() {
     sort(v.begin(), v.end()); // 입력 받은 수들 정렬하기
     int first = v[n - 1]; // 가장 큰 수
     int second = v[n - 2]; // 두 번째로 큰 수
-
+    
     // 가장 큰 수가 더해지는 횟수 계산
     int cnt = (m / (k + 1)) * k;
     cnt += m % (k + 1);
