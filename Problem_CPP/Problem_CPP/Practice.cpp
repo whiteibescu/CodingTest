@@ -2,11 +2,11 @@
 
 int main()
 {
-	time_t start, end;
-	double result;
+	clock_t start, end;
+	double result = 0;
 	int sum = 0;
 
-	start = time(NULL);
+	start = clock();
 
 	for (int i = 0; i < 10000; ++i)
 	{
@@ -16,9 +16,7 @@ int main()
 		}
 	}
 
-	end = time(NULL);
-
+	end = clock();
 	result = (double)(end - start);
 	printf("%d", result);
-
 }
