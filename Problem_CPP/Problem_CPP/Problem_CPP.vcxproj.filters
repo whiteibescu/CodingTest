@@ -27,5 +27,8 @@
     <ClCompile Include="Practice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TopBottomLeftRight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
