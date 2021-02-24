@@ -1,28 +1,28 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <algorithm>
 #include <vector>
 #include <string>
 
 using namespace std;
 
-// NÀ» ÀÔ·Â¹Þ±â
+// Nï¿½ï¿½ ï¿½Ô·Â¹Þ±ï¿½
 int n;
 string plans;
 int x = 1, y = 1;
 
-// L, R, U, D¿¡ µû¸¥ ÀÌµ¿ ¹æÇâ 
+// L, R, U, Dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ 
 int dx[4] = { 0, 0, -1, 1 };
 int dy[4] = { -1, 1, 0, 0 };
 char moveTypes[4] = { 'L', 'R', 'U', 'D' };
 
 int main(void) {
     cin >> n;
-    cin.ignore(); // ¹öÆÛ ºñ¿ì±â 
+    cin.ignore(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
     getline(cin, plans);
-    // ÀÌµ¿ °èÈ¹À» ÇÏ³ª¾¿ È®ÀÎ
+    // ï¿½Ìµï¿½ ï¿½ï¿½È¹ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ È®ï¿½ï¿½
     for (int i = 0; i < plans.size(); i++) {
         char plan = plans[i];
-        // ÀÌµ¿ ÈÄ ÁÂÇ¥ ±¸ÇÏ±â 
+        // ï¿½Ìµï¿½ ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½Ï±ï¿½ 
         int nx = -1, ny = -1;
         for (int j = 0; j < 4; j++) {
             if (plan == moveTypes[j]) {
@@ -30,9 +30,9 @@ int main(void) {
                 ny = y + dy[j];
             }
         }
-        // °ø°£À» ¹þ¾î³ª´Â °æ¿ì ¹«½Ã 
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½î³ªï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
         if (nx < 1 || ny < 1 || nx > n || ny > n) continue;
-        // ÀÌµ¿ ¼öÇà 
+        // ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ 
         x = nx;
         y = ny;
     }
