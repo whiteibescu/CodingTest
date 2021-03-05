@@ -154,6 +154,7 @@
     </ClCompile>
     <ClCompile Include="Practice.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="RecursiveFunction.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="TopBottomLeftRight.cpp" />
   </ItemGroup>
