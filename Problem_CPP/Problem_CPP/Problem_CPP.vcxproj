@@ -142,6 +142,7 @@
     <ClCompile Include="AdjacencyList.cpp" />
     <ClCompile Include="AdjacencyMatrix.cpp" />
     <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="DFS.cpp" />
     <ClCompile Include="ExitRecursiveFunction.cpp" />
     <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="GameCode.cpp" />

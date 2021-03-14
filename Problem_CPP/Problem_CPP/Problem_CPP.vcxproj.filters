@@ -57,5 +57,8 @@
     <ClCompile Include="AdjacencyList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
