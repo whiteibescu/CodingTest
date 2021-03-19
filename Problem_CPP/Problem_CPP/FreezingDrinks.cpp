@@ -24,7 +24,7 @@ bool dfs(int x, int y) {
         dfs(x, y - 1);
         dfs(x + 1, y);
         dfs(x, y + 1);
-        return true;
+        return true; 
     }
     return false;
 }
