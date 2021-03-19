@@ -156,10 +156,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="MazeRun.cpp" />
     <ClCompile Include="NumberCardGame.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Practice.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="RecursiveFunction.cpp" />
     <ClCompile Include="Stack.cpp" />
