@@ -31,3 +31,4 @@ int main(void) {
         cout << arr[i] << ' ';
     }
 }
+//±ê ¿À·ù
