@@ -81,5 +81,8 @@
     <ClCompile Include="CountingSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CountingSort2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
