@@ -38,3 +38,10 @@ def Problem10():
         for n in range(1, 10):  # 단 수가 안에 들어왔다.
             print(f'{n} x {m} = {n * m}', end='\t')
         print()
+
+def add(a, b):
+    result = a + b
+    return result
+
+    add_result = add(100, 200)
+    print(add_result)
