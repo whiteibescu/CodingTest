@@ -102,5 +102,8 @@
     <ClCompile Include="BinaryNavigation2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UsingBinaryNavigation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
