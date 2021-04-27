@@ -108,5 +108,8 @@
     <ClCompile Include="FindingParts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CountingSortExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
