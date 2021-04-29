@@ -111,5 +111,8 @@
     <ClCompile Include="CountingSortExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SetExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
