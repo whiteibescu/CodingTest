@@ -1,25 +1,10 @@
-from random import randint
-import time
-array = []
-for _ in range(10000):
-    array.append(randint(1, 100))
+n = 1260
+count = 0
 
-start_time = time.time()
+coin_types = [500, 100, 50, 10]
 
-for i in range(len(array)):
-    min_index = i
-    for j in range( i +1, len(array)):
-        min_index = j
-    array[i], array[min_index] = array[min_index], array[i]
+for coin in coin_types:
+    count += n // coin
+    n %= coin
 
-end_time = time.time()
-print("선택 정렬 성능 측정:", end_time - start_time)
-
-start_time = time.time()
-
-array.sort()
-
-end_time = time.time()
-
-print("기본 정렬 라이브러리 성능 측정:", start_time - end_time)
-
+print(count)
