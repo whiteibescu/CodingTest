@@ -1,6 +1,25 @@
-array = [3, 5, 1, 2, 4]
+from random import randint
+import time
+array = []
+for _ in range(10000):
+    array.append(randint(1, 100))
 
-for i in array:
-    for j in array:
-        temp = i * j
-        print(temp)
+start_time = time.time()
+
+for i in range(len(array)):
+    min_index = i
+    for j in range( i +1, len(array)):
+        min_index = j
+    array[i], array[min_index] = array[min_index], array[i]
+
+end_time = time.time()
+print("선택 정렬 성능 측정:", end_time - start_time)
+
+start_time = time.time()
+
+array.sort()
+
+end_time = time.time()
+
+print("기본 정렬 라이브러리 성능 측정:", start_time - end_time)
+
