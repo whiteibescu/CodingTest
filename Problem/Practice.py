@@ -1,8 +1,11 @@
-def swap(c, d):
-    c, d = d, c
-    return c, d
+for i in range(5):
+    print(str(i) + "= 반복 변수")
+print()
 
-a = 90
-b = 80
-a, b = swap(a, b)
-print(a, b)
+for i in range(5, 10):
+    print(str(i) + "= 반복 변수")
+print()
+
+for i in range(0, 10, 3):
+    print(str(i) + "= 반복 변수")
+print()

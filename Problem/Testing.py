@@ -1,10 +1,19 @@
-n = 1260
-count = 0
+n = int(input())
+x, y = 1, 1
+plans = input().split()
 
-coin_types = [500, 100, 50, 10]
+dx = [0, 0, -1, 1]
+dy = [-1, 1, 0, 0]
 
-for coin in coin_types:
-    count += n // coin
-    n %= coin
+move_types = ['L', 'R', 'U', 'D']
 
-print(count)
+for plan in plans:
+    for i in range(len(move_types)):
+        if plan == move_types[i]:
+            nx = x + dx[i]
+            ny = y + dy[i]
+    if nx < 1 or ny < 1 or nx > n or ny > n:
+        continue
+    x, y = nx, ny
+
+print(x, y)
